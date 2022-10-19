@@ -17,6 +17,7 @@ public class Tower : MonoBehaviour
         {
             Instantiate(tower.gameObject, position, Quaternion.identity);
             bank.Withdraw(cost);
+
             return true;
         }
 
